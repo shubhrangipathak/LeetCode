@@ -1,3 +1,3 @@
 # LeetCode
-My all LeetCode submissions here.
+My all LeetCode & GFG submissions here.
 
