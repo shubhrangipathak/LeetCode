@@ -1,21 +1,22 @@
-#User function Template for python3
 
 def downwardDigonal(N, A): 
     # code here 
-    d = {}
-    for i in range(N):
-        for j in range(N):
-            if (i+j) in d: 
-                d[i+j].append(A[i][j])
-            else:
-                d[i+j]=[]
-                d[i+j].append(A[i][j])
     ans = []
-    for i in d:
-        for j in d[i]:
-            ans.append(j)
-    return ans
+    for i in range(0,N):
+        if(i==0):
+            start=0
+        else:
+            start=N-1
+            
+        for j in range(start,N):
+            x=i
+            y=j
+            while(i!=y+1):
+                ans.append(A[x][y])
+                x=x+1
+                y=y-1
 
+    return ans
 
 #{ 
  # Driver Code Starts
