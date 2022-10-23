@@ -1,5 +1,22 @@
 class Solution:
     def checkValid(self, matrix: List[List[int]]) -> bool:
+        length = len(matrix)
+        indexes = range(length)
+        
+        for i in indexes:
+            if (len(set(matrix[i])) != length):
+                return False
+        
+        
+        for i in indexes:
+            col = [matrix[j][i] for j in indexes]
+            if (len(set(col)) != length):
+                return False
+                
+        return True
+
+    
+    def checkValidInt(self, matrix: List[List[int]]) -> bool:
 
         def resetHashmap(hashMap: dict) -> dict:
             for index in range(1, len(hashMap) + 1):
@@ -9,6 +26,7 @@ class Solution:
         length = len(matrix)
         hashMap = defaultdict(int)
         
+        # initialising Dictionary to find the dupliczte 
         for index in range(1, length+1):
             hashMap[index] = 0
 
@@ -21,9 +39,7 @@ class Solution:
                      hashMap[number] += 1 
                 else :
                     return False
-                # numPresent = isPresent(l,matrix[i][j])
-                # if numPresent == False:
-                     # return False
+
         # iterating by column
         for i in range(len(matrix)):
             hashMap = resetHashmap(hashMap)
@@ -34,11 +50,3 @@ class Solution:
                 else :
                     return False   
         return True
-    
-    #Checking if number present
-#         def isPresent(numList :List[int],num:int)->bool: 
-#             for index in range(len(numList)):
-#                 if numList[index]==num:
-#                     return True
-#             return False
-            
