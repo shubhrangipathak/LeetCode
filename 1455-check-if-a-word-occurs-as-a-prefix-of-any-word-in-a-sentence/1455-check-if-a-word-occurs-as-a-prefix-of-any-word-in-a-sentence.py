@@ -8,8 +8,8 @@ class Solution:
             d[i+1] = l[i]
             
         for i,j in d.items():
-            if len(j) >= len(searchWord):
-                if j[:m] == searchWord:
+            # if len(j) >= len(searchWord):
+            if j[:m] == searchWord:
                     return i
         return -1
             
