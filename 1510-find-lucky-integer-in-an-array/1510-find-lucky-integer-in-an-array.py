@@ -6,10 +6,10 @@ class Solution:
             d[i] = d.get(i, 0) + 1
 
         res = []
+        maxi = -1
         for i, j in d.items():
             if i == j:
-                res.append(i)
+                if i > maxi:
+                    maxi = i
 
-        if res:
-            return max(res)
-        return -1
+        return maxi
