@@ -7,11 +7,13 @@ My all LeetCode & GFG submissions here.
 ## Array
 |  |
 | ------- |
+| [1510-find-lucky-integer-in-an-array](https://github.com/shubhrangipathak/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/shubhrangipathak/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/shubhrangipathak/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 ## Hash Table
 |  |
 | ------- |
+| [1510-find-lucky-integer-in-an-array](https://github.com/shubhrangipathak/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/shubhrangipathak/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 ## Math
 |  |
@@ -29,4 +31,8 @@ My all LeetCode & GFG submissions here.
 |  |
 | ------- |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/shubhrangipathak/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+## Counting
+|  |
+| ------- |
+| [1510-find-lucky-integer-in-an-array](https://github.com/shubhrangipathak/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 <!---LeetCode Topics End-->
